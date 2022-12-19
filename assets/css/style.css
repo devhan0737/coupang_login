@@ -5,10 +5,11 @@
 form {
     width: 520px;
     font-family: 'Nanum Gothic', sans-serif;
-    margin: 0 auto;
+    margin: 50px auto 0;
 }
 
 .input-group{
+    margin: 10px 0;
     
 }
 .btn{
@@ -27,7 +28,20 @@ form {
     border: 1px solid #ccc;
 }
 
-header{
-    width: auto;
-    margin: auto;
+.input-check-find{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+footer, header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 196px;
+    height: 46px;
+    margin-bottom: 10px;
 }
