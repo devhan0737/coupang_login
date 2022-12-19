@@ -1,0 +1,33 @@
+/* CDN 2 : style 안에서 불러온다. */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+form {
+    width: 520px;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0 auto;
+}
+
+.input-group{
+    
+}
+.btn{
+    font-size: 17px;
+    text-align: center;
+    padding: 16px;
+    border-radius: 2px;
+}
+.login{
+    color: white;
+    background-color: #0074e9;
+}
+.join{
+    color: #0074e9;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+header{
+    width: auto;
+    margin: auto;
+}
